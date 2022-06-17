@@ -1,0 +1,95 @@
+@media (max-width: 990px) {
+  :root{
+    font-size: 50%;
+  }
+}
+@media (max-width: 800px) {
+  :root{
+    font-size: 40%;
+  }
+}
+@media (max-width: 700px) {
+  :root{
+    font-size: 30%;
+  }
+}
+@media (max-width: 550px) {
+  .menu nav ul{
+    display: none;
+  }
+  .menu_mobile{
+    display: flex;
+    margin-right: 1.5rem;
+  }
+  header nav ul{
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .container .logo a img{
+    width: 30rem;
+    margin-left: 1.5rem;
+  }
+  .container{
+    padding: 0px 1rem;
+  }
+}
+@media (max-width: 440px) {
+  header nav ul{
+    font-size: 1.3rem;
+
+  }
+}
+@media (max-width: 330px) {
+  .banner_options{
+    flex-direction: column;
+    height: 100%;
+  }
+  header nav ul{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    
+  }
+  section#banner{
+    height: 100%;
+  }
+  .banner_headline h1{
+    margin-top: 10rem;
+    font-size: 6rem;
+  }
+  .banner_headline h2{
+    font-size: 1.6rem;
+    margin-bottom: 10rem;
+  }
+  .footer_menu{
+    flex-direction: column;
+  }
+  .footer_area{
+    flex-direction: column;
+  }
+  :root{
+    font-size: 25%;
+  }
+}
+@media (max-width: 290px) {
+  header nav ul{
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 230px) {
+  .menu_mobile{
+    width: 4.5rem;
+  }
+  .menu_mobile .arrow{
+    height: .3rem;
+    width: 100%;
+  }
+  .container .logo a img{
+    width: 25rem;
+    margin-left: 1.5rem;
+  }
+  header nav ul{
+    font-size: .7rem;
+    font-weight: bolder;
+    
+  }
+}
